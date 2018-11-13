@@ -30,7 +30,7 @@
             }
     }
 
-    $data = ['senha' => $senha, 'tipo' => $tipo];
+    $data = ['senha' => ($senha+1), 'tipo' => $tipo];
 
     echo json_encode($data);
 
