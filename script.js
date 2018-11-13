@@ -9,16 +9,6 @@ function botaoClicado_P(){
     window.location = "SELEÇÃO.html";
 }
 
-//Senhas
-
-window.onload = function(){
-    if (getCookie(document.querySelector("title").textContent + "normal"))
-        senhaNor = parseInt(getCookie(document.querySelector("title").textContent + "normal"));
-    if (getCookie(document.querySelector("title").textContent + "prioridade"))
-        senhaPri = parseInt(getCookie(document.querySelector("title").textContent + "prioridade"));
-}
-
-
 //saida
 function cont1() {
     let senhaN;
