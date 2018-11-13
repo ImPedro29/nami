@@ -33,26 +33,21 @@
     let msgI = "";
 
     function chame(){
-        var update = function() {
-            $.ajax({
-                url: "requisicoes/ultima.php",
-                type: "GET",
-                dataType: "json",
-                data: {},
-                cache: false,
-                success: function (data) {
-                    if (!data.none) {
-                        msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
-                        document.getElementsByClassName("number")[0].innerHTML = data.tipo[0].toUpperCase() + "" + data.senha;
-                        console.log(data);
-                    }
+       $.ajax({
+            url: "requisicoes/ultima.php",
+            type: "GET",
+            dataType: "json",
+            data: {},
+            cache: false,
+            success: function(data){
+                if(!data.none){
+                    msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
+                    document.getElementsByClassName("number")[0].innerHTML = data.tipo[0].toUpperCase() + "" + data.senha;
+                    var msg = new SpeechSynthesisUtterance(msgI);
+                    window.speechSynthesis.speak(msg);
                 }
-            });
-        };
-        update();
-
-        var msg = new SpeechSynthesisUtterance(msgI);
-        window.speechSynthesis.speak(msg);
+            }
+        });
     }
 
 </script>
