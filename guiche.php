@@ -22,22 +22,21 @@
         let tipoAtual = 0;
 
         function chamar(){
-            let again = 0;
             $.ajax({
                 url: "requisicoes/chamar.php",
                 type: "GET",
                 dataType: "json",
                 data: { guiche: st, tipo: tipoAtual },
                 success: function(data){
-                    if(!data.prioridade) {
-                        console.log("dnv2");
-                    }
+                    if(!data.prioridade)
+                        chamarDnv();
+
 
                 },
                 error: function(error){
-                    if(!error.prioridade){
-                        console.log("dnv");
-                    }
+                    if(!error.prioridade)
+                        chamarDnv();
+
                 }
             });
 
@@ -46,6 +45,15 @@
             else
                 tipoAtual = 0;
 
+        }
+
+        function chamarDnv(){
+            $.ajax({
+                url: "requisicoes/chamar.php",
+                type: "GET",
+                dataType: "json",
+                data: { guiche: st, tipo: tipoAtual }
+            });
         }
 
         function repetir(){
