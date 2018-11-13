@@ -34,7 +34,7 @@
                     break;
                 }
         }else{
-            if (qtd == 0)
+            if ($qtd == 0)
                 while ($row = $result2->fetch_assoc())
                     if ($row["chamado"] == 0){
                         $sq = "UPDATE fila_normal SET chamado=1, guiche=$guiche WHERE id=" . $row["id"];
