@@ -11,32 +11,24 @@ function botaoClicado_P(){
 
 //saida
 function cont1(){
-    $.ajax({
-        url: "requisicoes/inserir.php",
-        type: "GET",
-        dataType: "json",
-        data: {tipo: "1"},
-        cache: false,
-        success: function(data){
-            var conteudo= "N"+ data.senha +" (" + document.querySelector("title").textContent + ")";
-            imprimir(conteudo);
-        }
-    });
-
-
-
+    var conteudo= "N"+ insertAndGet(1) +" (" + document.querySelector("title").textContent + ")";
+    imprimir(conteudo);
 }
 
 function cont2(){
+    var conteudo= "P"+ insertAndGet(0) +" (" + document.querySelector("title").textContent + ")";
+    imprimir(conteudo);
+}
+
+function insertAndGet(t){
     $.ajax({
         url: "requisicoes/inserir.php",
         type: "GET",
         dataType: "json",
-        data: {tipo: "0"},
+        data: {tipo: t},
         cache: false,
         success: function(data){
-            var conteudo= "P"+ data.senha +" (" + document.querySelector("title").textContent + ")";
-            imprimir(conteudo);
+            return data.senha;
         }
     });
 }
