@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe7f376b-f7ed-4156-9a07-b2b9027a24ca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chamadas.php" beforeDir="false" afterPath="$PROJECT_DIR$/chamadas.php" afterDir="false" />
-    </list>
+    <list default="true" id="fe7f376b-f7ed-4156-9a07-b2b9027a24ca" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +113,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="363" />
     <option name="y" value="67" />
     <option name="width" value="970" />
@@ -178,12 +176,12 @@
       <workItem from="1542031243508" duration="2386000" />
       <workItem from="1542067793176" duration="7259000" />
       <workItem from="1542104800771" duration="10000" />
-      <workItem from="1542112271983" duration="9710000" />
+      <workItem from="1542112271983" duration="9780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21395000" />
+    <option name="totallyTimeSpent" value="21465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
