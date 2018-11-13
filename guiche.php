@@ -30,15 +30,13 @@
                 data: { guiche: st, tipo: tipoAtual },
                 success: function(data){
                     if(!data.prioridade) {
-                        again = 1;
-                        console.log(tipoAtual);
+                        chamar();
                     }
 
                 },
                 error: function(error){
                     if(!error.prioridade){
-                        again = 1;
-                        console.log(tipoAtual);
+                        chamar();
                     }
                 }
             });
@@ -47,9 +45,6 @@
                 tipoAtual = 1;
             else
                 tipoAtual = 0;
-
-            if(again == 1)
-                chamar();
 
         }
 
