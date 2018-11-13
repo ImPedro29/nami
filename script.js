@@ -21,22 +21,18 @@ window.onload = function(){
 
 //saida
 function cont1() {
-    senhaNor
+    let senhaN;
     $.ajax({
-        url: "requisicoes/ultima.php",
+        url: "requisicoes/inserir.php",
         type: "GET",
         dataType: "json",
         data: {},
         cache: false,
         success: function(data){
-            if(!data.none){
-                msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
-                document.getElementsByClassName("number")[0].innerHTML = data.tipo[0].toUpperCase() + "" + data.senha;
-                var msg = new SpeechSynthesisUtterance(msgI);
-                window.speechSynthesis.speak(msg);
-            }
+            senhaN = data.senha;
         }
     });
+
     var conteudo= "N"+senhaN+" (" + document.querySelector("title").textContent + ")";
     tela_impressao = window.open('about:blank');
     tela_impressao.document.write(conteudo);
@@ -49,7 +45,17 @@ function cont1() {
 }
 
 function cont2(){
-    senhaP
+    let senhaP;
+    $.ajax({
+        url: "requisicoes/ultima.php",
+        type: "GET",
+        dataType: "json",
+        data: {},
+        cache: false,
+        success: function(data){
+            senhaP = data.senha;
+        }
+    });
 
     var conteudo= "P"+senhaP+" (" + document.querySelector("title").textContent + ")";
     tela_impressao = window.open('about:blank');
