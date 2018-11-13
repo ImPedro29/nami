@@ -9,32 +9,34 @@ function botaoClicado_P(){
     window.location = "SELEÇÃO.html";
 }
 
-//saida
-function cont1(){
-    insertAndGet(1, function(out){
-        conteudo= "N"+ out.senha +" (" + document.querySelector("title").textContent + ")";
-        imprimir(conteudo);
-    });
-}
+let conteudo;
 
-function cont2(){
-    insertAndGet(0, function(out){
-        conteudo= "P"+ out.senha +" (" + document.querySelector("title").textContent + ")";
-        imprimir(conteudo);
-    });
-}
-
-function insertAndGet(t, output){
+function cout1(){
     $.ajax({
         url: "requisicoes/inserir.php",
         type: "GET",
         dataType: "json",
-        data: {tipo: t},
+        data: {tipo: "1"},
         cache: false,
         success: function(data){
-            output(data);
+            conteudo= "P"+ data.senha +" (" + document.querySelector("title").textContent + ")";
         }
     });
+    imprimir(conteudo);
+}
+
+function cout2(){
+    $.ajax({
+        url: "requisicoes/inserir.php",
+        type: "GET",
+        dataType: "json",
+        data: {tipo: "0"},
+        cache: false,
+        success: function(data){
+            conteudo= "N"+ data.senha +" (" + document.querySelector("title").textContent + ")";
+        }
+    });
+    imprimir(conteudo);
 }
 
 function imprimir(ct){
