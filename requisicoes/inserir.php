@@ -4,13 +4,35 @@
     $tipo = $_GET["tipo"];
     $today = getdate();
     $data = $today['year'] . "-" . $today['mon'] . "-" . $today['mday'];
+    $senha;
 
-    echo $data;
+    if($tipo == 1) {
+        $sql = "INSERT INTO fila_normal (dia) VALUES ('$data')";
+        $sql2 = "SELECT * FROM fila_normal";
+        $result = $mq->query($sql2);
 
-    if($tipo == 1)
-         $sql = "INSERT INTO fila_normal (dia) VALUES ('$data')";
-    else
+        if ($result->num_rows > 0)
+            while ($row = $result->fetch_assoc()){
+                if ($row["chamado"] == 0){
+                    $senha = $row["id"];
+                }
+            }
+    }else{
         $sql = "INSERT INTO fila_prioridade (dia) VALUES ('$data')";
+        $sql2 = "SELECT * FROM fila_prioridade";
+        $result = $mq->query($sql2);
+
+        if ($result->num_rows > 0)
+            while ($row = $result->fetch_assoc()){
+                if ($row["chamado"] == 0){
+                    $senha = $row["id"];
+                }
+            }
+    }
+
+    $data = ['senha' => $senha, 'tipo' => $tipo];
+
+    echo json_encode($data);
 
     $mq->query($sql);
 ?>
