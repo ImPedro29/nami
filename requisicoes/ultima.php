@@ -13,7 +13,7 @@ if($result2->num_rows > 0){
         if ($row["chamado"] == 1){
             $sq = "UPDATE fila_prioridade SET chamado=2 WHERE id=" . $row["id"];
             $mq->query($sq);
-            $data = ['tipo' => 'normal' ,'senha' => $row["id"], 'guiche' => $row['guiche'], 'none' => false];
+            $data = ['tipo' => 'prioridade' ,'senha' => $row["id"], 'guiche' => $row['guiche'], 'none' => false];
             die(json_encode($data));
             break;
         }
@@ -24,7 +24,7 @@ if ($result->num_rows > 0)
         if ($row["chamado"] == 1){
             $sq = "UPDATE fila_normal SET chamado=2 WHERE id=" . $row["id"];
             $mq->query($sq);
-            $data = ['tipo' => 'prioridade' ,'senha' => $row["id"], 'guiche' => $row['guiche'], 'none' => false];
+            $data = ['tipo' => 'normal' ,'senha' => $row["id"], 'guiche' => $row['guiche'], 'none' => false];
             die(json_encode($data));
             break;
         }

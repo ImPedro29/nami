@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7f376b-f7ed-4156-9a07-b2b9027a24ca" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/guiche.php" beforeDir="false" afterPath="$PROJECT_DIR$/guiche.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requisicoes/ultima.php" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes/ultima.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guiche.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="guiche.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guiche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="241">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -49,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ultima.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ultima.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requisicoes/ultima.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+            <state relative-caret-position="459">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -99,10 +100,10 @@
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/requisicoes/repetir.php" />
         <option value="$PROJECT_DIR$/giche.php" />
-        <option value="$PROJECT_DIR$/guiche.php" />
         <option value="$PROJECT_DIR$/chamadas.php" />
         <option value="$PROJECT_DIR$/requisicoes/chamar.php" />
         <option value="$PROJECT_DIR$/requisicoes/ultima.php" />
+        <option value="$PROJECT_DIR$/guiche.php" />
       </list>
     </option>
   </component>
@@ -178,12 +179,12 @@
       <workItem from="1542031243508" duration="2386000" />
       <workItem from="1542067793176" duration="7259000" />
       <workItem from="1542104800771" duration="10000" />
-      <workItem from="1542112271983" duration="6304000" />
+      <workItem from="1542112271983" duration="6685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17989000" />
+    <option name="totallyTimeSpent" value="18370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -451,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guiche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -474,8 +468,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requisicoes/ultima.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+        <state relative-caret-position="459">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guiche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>

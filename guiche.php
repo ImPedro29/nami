@@ -29,13 +29,17 @@
                 dataType: "json",
                 data: { guiche: st, tipo: tipoAtual },
                 success: function(data){
-                    if(!data.prioridade)
+                    if(!data.prioridade) {
                         again = !again;
+                        alert(again);
+                    }
 
                 },
                 error: function(error){
-                    if(!error.prioridade)
+                    if(!error.prioridade){
                         again = !again;
+                        alert(again);
+                    }
                 }
             });
 
