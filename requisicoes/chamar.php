@@ -32,7 +32,7 @@
         }
     }
 
-    if($qtd == 0) {
+    if($qtd > 0) {
         $data = ['prioridade' => false];
     }else
         $data = ['prioridade' => true];
