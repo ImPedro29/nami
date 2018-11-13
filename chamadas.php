@@ -11,17 +11,36 @@
         transform: translate(-50%, -50%);
         font-size: 4em;
         font-family: "Calibri";
+        text-align: center;
     }
     .number{
-        font-size: 5em;
+        font-size: 6em;
         color: #ff3d29;
         font-weight: bold;
+        position: relative;
+        margin: 0;
+        padding: 0;
     }
 </style>
 
 <script>
 
-    var msg = new SpeechSynthesisUtterance('Senha ');
+    let inte = setInterval(chame, 3000);
+    let msgI = "";
+
+    function chame(){
+        $.ajax({
+            url: "requisicoes/ultima.php",
+            type: "GET",
+            dataType: "json",
+            data: { guiche: st, tipo: tipoAtual },
+            success: function(data){
+                msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
+            }
+        });
+    }
+
+    var msg = new SpeechSynthesisUtterance(msgI);
     window.speechSynthesis.speak(msg);
 
 </script>
