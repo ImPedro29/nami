@@ -1,8 +1,8 @@
 <?php
 $mq = mysqli_connect("mysql995.umbler.com", "nami", "tg0vvlbb5o", "nami");
 
-$guiche = $_GET["guiche"];
-$tipo = $_GET["tipo"];
+$guiche = $_POST["guiche"];
+$tipo = $_POST["tipo"];
 $sq;
 $temp;
 

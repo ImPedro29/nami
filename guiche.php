@@ -18,16 +18,22 @@
     </body>
 
     <script>
-        let st = prompt("Digite o numero do seu Guiche:");
+        let st = parseInt(prompt("Digite o numero do seu Guiche:"));
+        let tipoAtual = 0;
 
-       /* $.ajax({
-            type: "POST",
-            url: url,
-            data: data,
-            success: success,
-            dataType: dataType
-        });
-        */
+        function chamar() {
+            $.ajax({
+                type: "POST",
+                url: "/requisicoes/chamar.php",
+                data: { guiche: st, tipo: tipoAtual}
+            });
+
+            if(tipoAtual === 0)
+                tipoAtual = 1;
+            else
+                tipoAtual = 0;
+        }
+
 
     </script>
 
