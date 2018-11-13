@@ -22,11 +22,7 @@
         let tipoAtual = 0;
 
         function chamar() {
-            $.ajax({
-                type: "POST",
-                url: "/requisicoes/chamar.php",
-                data: { guiche: st, tipo: tipoAtual}
-            });
+            $.post( "requisicoes/chamar.php", { guiche: st, tipo: tipoAtual } );
 
             if(tipoAtual === 0)
                 tipoAtual = 1;
