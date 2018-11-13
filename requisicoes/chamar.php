@@ -6,7 +6,7 @@
     $sq;
     $qtd = 0;
 
-    if(tipo == 0){
+    if($tipo == 0){
         $sql = "SELECT * FROM fila_normal";
         $result = $mq->query($sql);
 
