@@ -33,9 +33,10 @@
 
     if($qtd == 0)
         $data = [ 'prioridade' => false];
+    else
+        $data = ['prioridade' => true];
 
     $mq->query($sq);
 
-    header('Content-Type: application/json');
     echo json_encode($data);
 ?>
