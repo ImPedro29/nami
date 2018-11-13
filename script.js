@@ -19,10 +19,7 @@ function cont1(){
         cache: false,
         success: function(data){
             var conteudo= "N"+ data.senha +" (" + document.querySelector("title").textContent + ")";
-            tela_impressao = window.open('about:blank');
-            tela_impressao.document.write(conteudo);
-            tela_impressao.window.print();
-            tela_impressao.window.close();
+            imprimir(conteudo);
         }
     });
 
@@ -39,10 +36,14 @@ function cont2(){
         cache: false,
         success: function(data){
             var conteudo= "P"+ data.senha +" (" + document.querySelector("title").textContent + ")";
-            tela_impressao = window.open('about:blank');
-            tela_impressao.document.write(conteudo);
-            tela_impressao.window.print();
-            tela_impressao.window.close();
+            imprimir(conteudo);
         }
     });
+}
+
+function imprimir(ct){
+    tela_impressao = window.open('about:blank');
+    tela_impressao.document.write(ct);
+    tela_impressao.window.print();
+    tela_impressao.window.close();
 }
