@@ -1,17 +1,21 @@
 
 <body>
-
-    <div id="num">Aguarde...</div>
-
+    <div id="num">Senha <br><p class="number">N00</p></div>
 </body>
 
 <style>
-    .num{
+    #num{
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
         font-size: 4em;
+        font-family: "Calibri";
+    }
+    .number{
+        font-size: 5em;
+        color: #ff3d29;
+        font-weight: bold;
     }
 </style>
 
