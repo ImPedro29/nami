@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe7f376b-f7ed-4156-9a07-b2b9027a24ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/guiche.php" beforeDir="false" afterPath="$PROJECT_DIR$/guiche.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requisicoes/chamar.php" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes/chamar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +23,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guiche.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="guiche.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guiche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="258">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chamar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chamadas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chamadas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -70,10 +89,11 @@
         <option value="$PROJECT_DIR$/10_Terapia Ocupacional.html" />
         <option value="$PROJECT_DIR$/SELEÇÃO.html" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/requisicoes/chamar.php" />
         <option value="$PROJECT_DIR$/requisicoes/repetir.php" />
         <option value="$PROJECT_DIR$/giche.php" />
+        <option value="$PROJECT_DIR$/chamadas.php" />
         <option value="$PROJECT_DIR$/guiche.php" />
+        <option value="$PROJECT_DIR$/requisicoes/chamar.php" />
       </list>
     </option>
   </component>
@@ -147,12 +167,12 @@
       <workItem from="1542017758187" duration="1895000" />
       <workItem from="1542024707948" duration="135000" />
       <workItem from="1542031243508" duration="2386000" />
-      <workItem from="1542067793176" duration="4390000" />
+      <workItem from="1542067793176" duration="5093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8806000" />
+    <option name="totallyTimeSpent" value="9509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -307,13 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requisicoes/repetir.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -349,10 +362,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chamadas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guiche.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="258">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -21,15 +21,18 @@
         let st = parseInt(prompt("Digite o numero do seu Guiche:"));
         let tipoAtual = 0;
 
-        function chamar() {
+        function chamar(){
             $.post( "requisicoes/chamar.php", { guiche: st, tipo: tipoAtual } );
 
-            if(tipoAtual === 0)
+            if(tipoAtual == 0)
                 tipoAtual = 1;
             else
                 tipoAtual = 0;
         }
 
+        function repetir(){
+            $.post( "requisicoes/repetir.php", { guiche: st, tipo: tipoAtual } );
+        }
 
     </script>
 
