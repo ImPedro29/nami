@@ -30,13 +30,13 @@
                 data: { guiche: st, tipo: tipoAtual },
                 success: function(data){
                     if(!data.prioridade) {
-                        chamar();
+                        console.log("dnv2");
                     }
 
                 },
                 error: function(error){
                     if(!error.prioridade){
-                        chamar();
+                        console.log("dnv");
                     }
                 }
             });
