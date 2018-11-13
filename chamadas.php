@@ -37,7 +37,7 @@
             url: "requisicoes/ultima.php",
             type: "GET",
             dataType: "json",
-            data: { guiche: st, tipo: tipoAtual },
+            data: {},
             success: function(data){
                 msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
             }
