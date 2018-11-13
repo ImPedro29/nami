@@ -4,11 +4,13 @@
     $sql = "SELECT * FROM fila_normal";
     $result = $mq->query($sql);
 
+    
+
 ?>
 
 <script>
 
-    var msg = new SpeechSynthesisUtterance('Testando Senha 01');
+    var msg = new SpeechSynthesisUtterance('Senha ');
     window.speechSynthesis.speak(msg);
 
 </script>
