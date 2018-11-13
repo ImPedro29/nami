@@ -11,16 +11,20 @@ function botaoClicado_P(){
 
 //saida
 function cont1(){
-    var conteudo= "N"+ insertAndGet(1) +" (" + document.querySelector("title").textContent + ")";
-    imprimir(conteudo);
+    insertAndGet(1, function(out){
+        conteudo= "N"+ out.senha +" (" + document.querySelector("title").textContent + ")";
+        imprimir(conteudo);
+    });
 }
 
 function cont2(){
-    var conteudo= "P"+ insertAndGet(0) +" (" + document.querySelector("title").textContent + ")";
-    imprimir(conteudo);
+    insertAndGet(0, function(out){
+        conteudo= "P"+ out.senha +" (" + document.querySelector("title").textContent + ")";
+        imprimir(conteudo);
+    });
 }
 
-function insertAndGet(t){
+function insertAndGet(t, output){
     $.ajax({
         url: "requisicoes/inserir.php",
         type: "GET",
@@ -28,7 +32,7 @@ function insertAndGet(t){
         data: {tipo: t},
         cache: false,
         success: function(data){
-            return data.senha;
+            output(data);
         }
     });
 }
