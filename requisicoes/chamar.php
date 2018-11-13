@@ -6,7 +6,7 @@
     $sq;
     $qtd = 0;
 
-    if(tipo == 0){
+    if(tipo === 0){
         $sql = "SELECT * FROM fila_normal";
         $result = $mq->query($sql);
 
@@ -18,7 +18,7 @@
             }
 
 
-    }else if($tipo == 1){
+    }else if($tipo === 1){
         $sql = "SELECT * FROM fila_prioridade";
         $result = $mq->query($sql);
 
