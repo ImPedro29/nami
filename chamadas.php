@@ -40,11 +40,12 @@
             data: {},
             success: function(data){
                 msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
+                document.getElementsByClassName("number")[0].innerHTML = data.tipo[0].toUpperCase() + "" + data.senha;
             }
         });
-    }
 
-    var msg = new SpeechSynthesisUtterance(msgI);
-    window.speechSynthesis.speak(msg);
+        var msg = new SpeechSynthesisUtterance(msgI);
+        window.speechSynthesis.speak(msg);
+    }
 
 </script>
