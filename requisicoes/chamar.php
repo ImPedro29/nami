@@ -18,7 +18,7 @@
             }
 
 
-    }else{
+    }else if($tipo == 1){
         $sql = "SELECT * FROM fila_prioridade";
         $result = $mq->query($sql);
 
@@ -33,7 +33,6 @@
                     break;
                 }
         }else{
-            
             if (qtd == 0)
                 while ($row = $result2->fetch_assoc())
                     if ($row["chamado"] == 0){
