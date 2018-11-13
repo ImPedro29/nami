@@ -5,7 +5,7 @@
     $tipo = $_POST["tipo"];
     $sq;
     $qtd = 0;
-
+    echo "asas";
     echo $tipo;
 
     if($tipo == 1){
