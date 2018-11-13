@@ -1,12 +1,19 @@
-<?php
-    $mq = mysqli_connect("mysql995.umbler.com", "nami", "tg0vvlbb5o", "nami");
 
-    $sql = "SELECT * FROM fila_normal";
-    $result = $mq->query($sql);
+<body>
 
-    
+    <div id="num">Aguarde...</div>
 
-?>
+</body>
+
+<style>
+    .num{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4em;
+    }
+</style>
 
 <script>
 

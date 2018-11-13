@@ -14,11 +14,16 @@
 
     <body>
         <button type="button" onclick="repetir();" ><h1>Repetir Chamada</h1></button>
-        <button type="button" onclick="chamar();" ><h1>Chamar Senha</h1></button>
+        /* <button type="button" onclick="chamar();" ><h1>Chamar Senha</h1></button> */
     </body>
 
     <script>
         let st = parseInt(prompt("Digite o numero do seu Guiche:"));
+
+        while(st == 0) {
+            st = parseInt(prompt("Digite o numero do seu Guiche:"));
+        }
+
         let tipoAtual = 0;
 
         function chamar(){
