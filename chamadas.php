@@ -39,8 +39,10 @@
             dataType: "json",
             data: {},
             success: function(data){
-                msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
-                document.getElementsByClassName("number")[0].innerHTML = data.tipo[0].toUpperCase() + "" + data.senha;
+                if(data.none) {
+                    msgI = data.tipo + ", senha " + data.senha + ", guichê " + data.guiche;
+                    document.getElementsByClassName("number")[0].innerHTML = data.tipo[0].toUpperCase() + "" + data.senha;
+                }
             }
         });
 
