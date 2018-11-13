@@ -1,11 +1,10 @@
 <?php
     $mq = mysqli_connect("mysql995.umbler.com", "nami", "tg0vvlbb5o", "nami");
 
-    $guiche = $_POST["guiche"];
-    $tipo = $_POST["tipo"];
+    $guiche = $_GET["guiche"];
+    $tipo = $_GET["tipo"];
     $sq;
     $qtd = 0;
-    echo "asas";
     echo $tipo;
 
     if($tipo == 1){
