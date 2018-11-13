@@ -31,6 +31,8 @@
                 }
         }
 
+        echo "<br>" . $qtd;
+
         $sq2 = "SELECT * FROM fila_normal";
         $result2 = $mq->query($sq2);
 
