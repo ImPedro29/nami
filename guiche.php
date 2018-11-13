@@ -48,7 +48,7 @@
             else
                 tipoAtual = 0;
 
-            if(again)
+            if(!again)
                 chamar();
 
         }
