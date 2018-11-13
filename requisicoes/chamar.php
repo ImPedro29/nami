@@ -36,6 +36,6 @@
         $data = ['prioridade' => false];
     }else
         $data = ['prioridade' => true];
-    
+
     echo json_encode($data);
 ?>
