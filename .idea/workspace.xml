@@ -52,8 +52,8 @@
       <file leaf-file-name="chamar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
+            <state relative-caret-position="493">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -154,12 +154,12 @@
       <workItem from="1542017758187" duration="1895000" />
       <workItem from="1542024707948" duration="135000" />
       <workItem from="1542031243508" duration="2386000" />
-      <workItem from="1542067793176" duration="1986000" />
+      <workItem from="1542067793176" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6402000" />
+    <option name="totallyTimeSpent" value="6555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
+        <state relative-caret-position="493">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,8 @@
 
     $guiche = $_GET["guiche"];
     $tipo = $_GET["tipo"];
+    $sq;
+
 
     if(tipo == 0){
         $sql = "SELECT * FROM fila_normal";
@@ -11,7 +13,8 @@
         if ($result->num_rows > 0)
             while ($row = $result->fetch_assoc())
                 if ($row["chamado"] == 0)
-                    $sq2 = "UPDATE fila_normal SET chamado=1, guiche=$guiche WHERE id=" . $row["id"];
+                    $sq = "UPDATE fila_normal SET chamado=1, guiche=$guiche WHERE id=" . $row["id"];
+
 
     }else{
         $sql = "SELECT * FROM fila_prioridade";
@@ -20,8 +23,9 @@
         if ($result->num_rows > 0)
             while ($row = $result->fetch_assoc())
                 if ($row["chamado"] == 0)
-                    $sq2 = "UPDATE fila_prioridade SET chamado=1, guiche=$guiche WHERE id=" . $row["id"];
-
+                    $sq = "UPDATE fila_prioridade SET chamado=1, guiche=$guiche WHERE id=" . $row["id"];
 
     }
+
+    $mq->query($sq);
 ?>
