@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7f376b-f7ed-4156-9a07-b2b9027a24ca" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/guiche.php" beforeDir="false" afterPath="$PROJECT_DIR$/guiche.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requisicoes/chamar.php" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes/chamar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="guiche.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guiche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="343">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -34,8 +35,8 @@
       <file leaf-file-name="chamar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="445">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -168,12 +169,12 @@
       <workItem from="1542031243508" duration="2386000" />
       <workItem from="1542067793176" duration="7259000" />
       <workItem from="1542104800771" duration="10000" />
-      <workItem from="1542112271983" duration="1744000" />
+      <workItem from="1542112271983" duration="2344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13429000" />
+    <option name="totallyTimeSpent" value="14029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -434,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guiche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chamadas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -455,10 +449,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guiche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requisicoes/chamar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="445">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>

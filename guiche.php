@@ -22,12 +22,31 @@
         let tipoAtual = 0;
 
         function chamar(){
-            $.post( "requisicoes/chamar.php", { guiche: st, tipo: tipoAtual } );
+            let again = false;
+            $.ajax({
+                url: "requisicoes/chamar.php",
+                type: "GET",
+                dataType: "json",
+                data: { guiche: st, tipo: tipoAtual },
+                success: function(data){
+                    if(!data.prioridade)
+                        again = !again;
+
+                },
+                error: function(error){
+                    if(!error.prioridade)
+                        again = !again;
+                }
+            });
 
             if(tipoAtual == 0)
                 tipoAtual = 1;
             else
                 tipoAtual = 0;
+
+            if(again)
+                chamar();
+
         }
 
         function repetir(){

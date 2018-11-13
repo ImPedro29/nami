@@ -31,12 +31,12 @@
         }
     }
 
-    if($qtd == 0)
-        $data = [ 'prioridade' => false];
-    else
+    if($qtd == 0) {
+        $data = ['prioridade' => false];
+        $mq->query($sq);
+    }else
         $data = ['prioridade' => true];
 
-    $mq->query($sq);
 
     echo json_encode($data);
 ?>
