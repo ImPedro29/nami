@@ -22,7 +22,7 @@
         let tipoAtual = 0;
 
         function chamar(){
-            let again = false;
+            let again = 0;
             $.ajax({
                 url: "requisicoes/chamar.php",
                 type: "GET",
@@ -30,14 +30,14 @@
                 data: { guiche: st, tipo: tipoAtual },
                 success: function(data){
                     if(!data.prioridade) {
-                        again = !again;
+                        again = 1;
                         console.log(again);
                     }
 
                 },
                 error: function(error){
                     if(!error.prioridade){
-                        again = !again;
+                        again = 1;
                         console.log(again);
                     }
                 }
@@ -48,7 +48,7 @@
             else
                 tipoAtual = 0;
 
-            if(!again)
+            if(again == 1)
                 chamar();
 
         }
