@@ -31,14 +31,14 @@
                 success: function(data){
                     if(!data.prioridade) {
                         again = !again;
-                        alert(again);
+                        console.log(again);
                     }
 
                 },
                 error: function(error){
                     if(!error.prioridade){
                         again = !again;
-                        alert(again);
+                        console.log(again);
                     }
                 }
             });
