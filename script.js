@@ -16,7 +16,7 @@ function cont1() {
         url: "requisicoes/inserir.php",
         type: "GET",
         dataType: "json",
-        data: {},
+        data: {tipo: "1"},
         cache: false,
         success: function(data){
             senhaN = data.senha;
@@ -40,7 +40,7 @@ function cont2(){
         url: "requisicoes/ultima.php",
         type: "GET",
         dataType: "json",
-        data: {},
+        data: {tipo: "0"},
         cache: false,
         success: function(data){
             senhaP = data.senha;

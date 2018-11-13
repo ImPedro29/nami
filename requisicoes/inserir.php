@@ -6,7 +6,7 @@
     $data = $today['year'] . "-" . $today['mon'] . "-" . $today['mday'];
     $senha;
 
-    if($tipo == 1) {
+    if($tipo == 1){
         $sql = "INSERT INTO fila_normal (dia) VALUES ('$data')";
         $sql2 = "SELECT * FROM fila_normal";
         $result = $mq->query($sql2);
