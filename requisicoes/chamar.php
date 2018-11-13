@@ -2,11 +2,11 @@
     $mq = mysqli_connect("mysql995.umbler.com", "nami", "tg0vvlbb5o", "nami");
 
     $guiche = $_POST["guiche"];
-    $tipo = $_POST["tipo"];
+    $tipo = intval($_POST["tipo"]);
     $sq;
     $qtd = 0;
 
-    if(!tipo){
+    if(tipo == 0){
         $sql = "SELECT * FROM fila_normal";
         $result = $mq->query($sql);
 
@@ -16,7 +16,6 @@
                     $sq = "UPDATE fila_normal SET chamado=1, guiche=$guiche WHERE id=" . $row["id"];
                     break;
             }
-
 
     }else{
         $sql = "SELECT * FROM fila_prioridade";
