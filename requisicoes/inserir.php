@@ -3,7 +3,7 @@
 
     $tipo = $_GET["tipo"];
     $today = getdate();
-    $data = $today['year'] . "-" . $today['mon'] . $today['mday'];
+    $data = STR_TO_DATE($today['year'] . "-" . $today['mon'] . $today['mday']);
 
     if($tipo == 1)
          $sql = "INSERT INTO fila_normal (dia) VALUES ('$data')";

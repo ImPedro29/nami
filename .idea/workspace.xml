@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7f376b-f7ed-4156-9a07-b2b9027a24ca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/10_Terapia Ocupacional.html" beforeDir="false" afterPath="$PROJECT_DIR$/10_Terapia Ocupacional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Laboratorio.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_Laboratorio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Enfermagem.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Enfermagem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Nutrição.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_Nutrição.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Farmacia.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_Farmacia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Ambulatorio.html" beforeDir="false" afterPath="$PROJECT_DIR$/5_Ambulatorio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_Fisioterapia.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_Fisioterapia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_Servico Social.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_Servico Social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Fonoaudiologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/8_Fonoaudiologia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Psicologia.html" beforeDir="false" afterPath="$PROJECT_DIR$/9_Psicologia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requisicoes/inserir.php" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes/inserir.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +25,8 @@
       <file leaf-file-name="inserir.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requisicoes/inserir.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -153,12 +143,12 @@
       <workItem from="1542031243508" duration="2386000" />
       <workItem from="1542067793176" duration="7259000" />
       <workItem from="1542104800771" duration="10000" />
-      <workItem from="1542112271983" duration="12618000" />
+      <workItem from="1542112271983" duration="12726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24303000" />
+    <option name="totallyTimeSpent" value="24411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -456,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requisicoes/inserir.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
         </state>
       </provider>
     </entry>
