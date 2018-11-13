@@ -9,7 +9,7 @@ $sql2 = "SELECT * FROM fila_prioridade";
 $result2 = $mq->query($sql2);
 
 if($result2->num_rows > 0){
-    while ($row = $result->fetch_assoc())
+    while ($row = $result2->fetch_assoc())
         if ($row["chamado"] == 1){
             $sq = "UPDATE fila_prioridade SET chamado=2, guiche=$guiche WHERE id=" . $row["id"];
             $mq->query($sq);
