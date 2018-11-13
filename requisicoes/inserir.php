@@ -3,7 +3,7 @@
 
     $tipo = $_GET["tipo"];
     $today = getdate();
-    $data = $today['year'] . "-" . $today['mon'] . $today['mday'];
+    $data = $today['year'] . "-" . $today['mon'] . "-" . $today['mday'];
 
     echo $data;
 
