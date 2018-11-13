@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #cecece;
+}
+
+.titulo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Calibri", sans-serif;
+}
+
+.voltar{
+    width: 15vw;
+    margin: 0 20vw;
+}
+
+button{
+    color: black;
+    text-transform: uppercase;
+    width: 27vw;
+    height: 7em;
+    font-family: "Calibri", sans-serif;
+    margin: 0.3em 1em;
+    font-size: 1.2em;
+    border-radius: 1000px;
+    border-color: transparent;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    outline: none;
+}
+
+button:active{
+    border-color: #3145c7;
+    border-style: solid;
+}
