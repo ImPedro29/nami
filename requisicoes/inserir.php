@@ -30,9 +30,9 @@
             }
     }
 
+    $mq->query($sql);
+    header('Content-Type: application/json');
     $data = ['senha' => ($senha+1), 'tipo' => $tipo];
 
     echo json_encode($data);
-
-    $mq->query($sql);
 ?>
