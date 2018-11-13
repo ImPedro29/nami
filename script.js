@@ -9,9 +9,11 @@ function botaoClicado_P(){
     window.location = "SELEÇÃO.html";
 }
 
+let senhaP;
+let senhaN;
+
 //saida
-function cont1() {
-    let senhaN;
+function cont1(){
     $.ajax({
         url: "requisicoes/inserir.php",
         type: "GET",
@@ -35,9 +37,8 @@ function cont1() {
 }
 
 function cont2(){
-    let senhaP;
     $.ajax({
-        url: "requisicoes/ultima.php",
+        url: "requisicoes/inserir.php",
         type: "GET",
         dataType: "json",
         data: {tipo: "0"},
